@@ -44,28 +44,21 @@ int main() {
 
     // TODO: Print TEXT segment - 2 function addresses
     //       e.g., (void*)&main and (void*)&checkStack
+    cout << "--- TEXT SEGMENT (Code) ---" << endl;
     cout << "main() address: " << (void*)&main << endl;
     cout << "checkStack() address: " << (void*)&checkStack << endl;
-
-
-    cout << "--- TEXT SEGMENT (Code) ---" << endl;
-    // ...
     cout << endl;
 
     // TODO: Print DATA segment - 2 initialized global addresses + values
-    cout << "Global 1 address: " << &glob1 << " value: " << glob1 << endl;
-    cout << "Global 2 address: " << &glob2 << " value: " << glob2 << endl;
-
     cout << "--- DATA SEGMENT (Initialized Globals) ---" << endl;
-    // ...
+    cout << "Global 1 address: " << &glob1 << " value: " << glob1 << endl;
+    cout << "Global 2 address: " << &glob2 << " value: " << glob2 << endl;   
     cout << endl;
 
     // TODO: Print BSS segment - 2 uninitialized global addresses + values
-    cout << "Global 3 address: " << &glob3 << " value: " << glob3 << endl;
-    cout << "Global 4 address: " << &glob4 << " value: " << glob4 << endl;
-
     cout << "--- BSS SEGMENT (Uninitialized Globals) ---" << endl;
-    // ...
+    cout << "Global 3 address: " << &glob3 << " value: " << glob3 << endl;
+    cout << "Global 4 address: " << &glob4 << " value: " << glob4 << endl;   
     cout << endl;
 
     // STACK: call checkStack with address of your local variable
@@ -87,7 +80,7 @@ int main() {
     cout << "DATA: " << &glob1 << endl; 
     cout << "BSS:  " << &glob3 << endl; 
     cout << "HEAP: " << heap1 << endl; 
-    cout << "STACK: " << &localVar << endl;  
+    cout << "STK: " << &localVar << endl;  
  
     cout << "=== RELATIVE POSITION SUMMARY ===" << endl;
     // ...

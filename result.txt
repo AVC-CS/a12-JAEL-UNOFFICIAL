@@ -1,31 +1,31 @@
 === MEMORY SEGMENT BOUNDARIES ===
 
-main() address: 0x55aa81c08326
-checkStack() address: 0x55aa81c08199
 --- TEXT SEGMENT (Code) ---
+main() address: 0x55f1c99da326
+checkStack() address: 0x55f1c99da199
 
-Global 1 address: 0x55aa81c0b048 value: 20
-Global 2 address: 0x55aa81c0b04c value: 22
 --- DATA SEGMENT (Initialized Globals) ---
+Global 1 address: 0x55f1c99dd048 value: 20
+Global 2 address: 0x55f1c99dd04c value: 22
 
-Global 3 address: 0x55aa81c0b194 value: 0
-Global 4 address: 0x55aa81c0b198 value: 0
 --- BSS SEGMENT (Uninitialized Globals) ---
+Global 3 address: 0x55f1c99dd194 value: 0
+Global 4 address: 0x55f1c99dd198 value: 0
 
 --- STACK SEGMENT (Cross-function comparison) ---
-Parent variable address: 0x7fff4d941d44
-Param address child frame: 0x7fff4d941d18
-Child local var adress: 0x7fff4d941d24
+Parent variable address: 0x7ffc25a5a5f4
+Param address child frame: 0x7ffc25a5a5c8
+Child local var adress: 0x7ffc25a5a5d4
 Stack grows: DOWN
 
-heap1 address: 0x55aaa10bc020
-heap2 address: 0x55aaa10bc430
-Heap grows: UP
 --- HEAP SEGMENT (Dynamic Allocation) ---
+heap1 address: 0x55f1fcb74020
+heap2 address: 0x55f1fcb74430
+Heap grows: UP
 
-TEXT: 0x55aa81c08326
-DATA: 0x55aa81c0b048
-BSS:  0x55aa81c0b194
-HEAP: 0x55aaa10bc020
-STACK: 0x7fff4d941d44
+TEXT: 0x55f1c99da326
+DATA: 0x55f1c99dd048
+BSS:  0x55f1c99dd194
+HEAP: 0x55f1fcb74020
+STK: 0x7ffc25a5a5f4
 === RELATIVE POSITION SUMMARY ===
