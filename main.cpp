@@ -46,7 +46,7 @@ int main() {
     //       e.g., (void*)&main and (void*)&checkStack
     cout << "--- TEXT SEGMENT (Code) ---" << endl;
     cout << "main() address: " << (void*)&main << endl;
-    cout << "checkStack() address: " << (void*)&checkStack << endl;
+    cout << "func2() address: " << (void*)&checkStack << endl;
     cout << endl;
 
     // TODO: Print DATA segment - 2 initialized global addresses + values
