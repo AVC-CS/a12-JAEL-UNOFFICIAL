@@ -74,12 +74,12 @@ int main() {
 
     // TODO: Print HEAP segment - 2 heap addresses + comparison
     //       Print "Heap grows: UP" or "DOWN"
-    cout << "heap1 address: " << heap1 << endl;
-    cout << "heap2 address: " << heap2 << endl;
-    cout << "Heap grows: " << (heap2 > heap1 ? "UP" : "DOWN") << endl;
 
     cout << "--- HEAP SEGMENT (Dynamic Allocation) ---" << endl;
     // ...
+    cout << "heap1 address: " << heap1 << endl;
+    cout << "heap2 address: " << heap2 << endl;
+    cout << "Heap grows: " << (heap2 > heap1 ? "UP" : "DOWN") << endl;
     cout << endl;
 
     // TODO: Print relative position summary
